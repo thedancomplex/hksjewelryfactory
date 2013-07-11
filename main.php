@@ -142,7 +142,10 @@
 <a href="./"><img src="images/spacer.gif" border="0" height="17" width="100%"></a>
 
 <?php
-function writeName($imgname,$itemnum)
+
+include 'items.php';
+
+function createItem($imgname,$itemnum)
 {
 $tmp_html = '<td align=center> <a href="./"><img src="pix/' . $imgname . '" border="0"></a><br>
 <a href="./" class="text">Item Number: ' . $itemnum . '</a><br>
@@ -152,7 +155,13 @@ $tmp_html = '<td align=center> <a href="./"><img src="pix/' . $imgname . '" bord
 return $tmp_html;
 }
 
-echo writeName("image001.png","dan0001");
+function createTable($itemTable, $width)
+{
+
+}
+
+$imgs = $items[2];
+echo createItem($imgs[0],$imgs[1]);
 ?>
 
 </td>
