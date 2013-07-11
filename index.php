@@ -3,10 +3,18 @@
 ?>
 
 <?php
-        include 'body.php';
+        include 'topnav.php';
 ?>
 
 <?php
-	        include 'foot.php';
+        include 'sidenav.php';
+?>
+
+<?php
+        include 'main.php';
+?>
+
+<?php
+        include 'foot.php';
 ?>
 
