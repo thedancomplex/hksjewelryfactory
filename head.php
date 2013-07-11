@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Untitled Document</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<style type="text/css">
+<!--
+body {
+background-color: #FFFFFF;
+background-image: url(images/body_bg.jpg);
+background-repeat: repeat;
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+.footer {
+font-family: Tahoma;
+font-size: 11px;
+color: #000000;
+text-decoration: none;
+}
+a.footer {
+font-family: Tahoma;
+font-size: 11px;
+color: #000000;
+text-decoration: none;
+}
+a.footer:hover {
+font-family: Tahoma;
+font-size: 11px;
+color: #000000;
+text-decoration: underline;
+}
+.text {
+font-family: Tahoma;
+font-size: 11px;
+color: #434343;
+text-decoration: none;
+}
+a.text {
+font-family: Tahoma;
+font-size: 11px;
+color: #434343;
+text-decoration: none;
+font-weight: normal;
+}
+a.text:hover {
+font-family: Tahoma;
+font-size: 11px;
+color: #434343;
+text-decoration: underline;
+font-weight: normal;
+}
+.menu {
+background-color: #F0F0F0;
+border: 1px solid #C8C8C8;
+}
+.menu_on {
+background-color: #FFFFFF;
+border: 1px solid #C8C8C8;
+}
+.menu2 {
+font-family: Tahoma;
+font-size: 11px;
+color: #434343;
+text-decoration: none;
+}
+a.menu2 {
+font-family: Tahoma;
+font-size: 11px;
+color: #434343;
+text-decoration: none;
+margin-left: 25px;
+}
+a.menu2:hover {
+font-family: Tahoma;
+font-size: 11px;
+color: #434343;
+text-decoration: none;
+}
+.menu3 {
+font-family: Tahoma;
+font-size: 11px;
+color: #003F78;
+text-decoration: none;
+}
+a.menu3 {
+font-family: Tahoma;
+font-size: 11px;
+color: #003F78;
+text-decoration: none;
+text-align: left;
+margin-left: 30px;
+}
+a.menu3:hover {
+font-family: Tahoma;
+font-size: 11px;
+color: #003F78;
+text-decoration: underline;
+}
+-->
+</style>
+</head>
