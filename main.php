@@ -15,45 +15,52 @@ $tmp_html = '<td align=center> <a href="./"><img src="pix/' . $imgname . '" bord
 return $tmp_html;
 }
 
-function createTable($itemTable, $width)
+function createRow($items,$istart)
 {
 
-}
-
-$imgs = $items[2];
-// echo createItem($imgs[0],$imgs[1]); 
-
-
-echo '
+$tmp1_html = '
 <table border="0" cellpadding="0" cellspacing="0" width="515">
 <tbody>
 <tr>';
 
 
-$imgs = $items[0];
-echo createItem($imgs[0],$imgs[1]); 
+$imgs = $items[$istart];
+$tmp2_html = createItem($imgs[0],$imgs[1]); 
 
 
 
-echo '<td width="28"></td> ';
+$tmp3_html = '<td width="28"></td> ';
 
 
-$imgs = $items[1];
-echo createItem($imgs[0],$imgs[1]); 
+$imgs = $items[$istart+1];
+$tmp4_html = createItem($imgs[0],$imgs[1]); 
 
-echo '<td width="28"></td>';
+$tmp5_html = '<td width="28"></td>';
 
 
-$imgs = $items[2];
-echo createItem($imgs[0],$imgs[1]); 
+$imgs = $items[$istart+2];
+$tmp6_html = createItem($imgs[0],$imgs[1]); 
 
-echo '
+$tmp7_html = '
 </tr>
 </tbody>
 </table>
 <a href="./"><img src="images/spacer.gif" border="0" height="17" width="100%"></a>
 ';
 
+$tmp_ret = $tmp1_html . $tmp2_html . $tmp3_html . $tmp4_html . $tmp5_html . $tmp6_html . $tmp7_html;
+
+return $tmp_ret;
+
+}
+
+
+$max = sizeof($items);
+
+for($i = 0; $i<$max; $i=$i+3)
+{
+echo createRow($items,$i);
+}
 ?>
 
 
